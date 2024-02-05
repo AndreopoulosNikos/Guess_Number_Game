@@ -38,7 +38,7 @@ function checkNumber() {
   }
 }
 
-// Reset game when we press again
+// Reset game when we press again button
 function reset() {
   guessNumber = Math.floor(Math.random() * 20) + 1;
   score.innerHTML = 20;
