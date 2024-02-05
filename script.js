@@ -38,6 +38,5 @@ function reset() {
   score.innerHTML = 20;
   background.backgroundColor = "#222";
   message.innerHTML = "Start guessing...";
-  console.log(guessNumber);
   return guessNumber;
 }
