@@ -25,7 +25,7 @@ function checkNumber() {
       message.innerHTML = "Too high";
     } else if (guessValue < guessNumber && score.innerHTML > 0) {
       score.innerHTML--;
-      message.innerHTML = "Too low";
+      message.innerHTML = "Tooooooooo low";
     }
   } else {
     message.innerHTML = "Correct Number!";
