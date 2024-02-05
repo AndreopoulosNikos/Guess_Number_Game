@@ -25,7 +25,7 @@ function checkNumber() {
   } else {
     message.innerHTML = "Correct Number!";
     background.backgroundColor = "#60b347";
-    if (highscore.innerHTML < score.innerHTML) {
+    if (Number(highscore.innerHTML) < Number(score.innerHTML)) {
       highscore.innerHTML = score.innerHTML;
     }
     setTimeout(reset, 1500);
