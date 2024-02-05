@@ -37,5 +37,6 @@ function reset() {
   guessNumber = Math.floor(Math.random() * 20) + 1;
   score.innerHTML = 20;
   background.backgroundColor = '#222';
+  message.innerHTML = 'Start guessing...';
   return guessNumber;
 }
