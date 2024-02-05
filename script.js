@@ -20,12 +20,12 @@ function checkNumber() {
       background.backgroundColor = "#ee0707";
       hiddenNumber.innerHTML = guessNumber;
       setTimeout(reset, 2000);
-    } else if (guessValue > guessNumber) {
+    } else if (guessValue > guessNumber && score.innerHTML != 0) {
       score.innerHTML--;
       message.innerHTML = "Too high";
-    } else if (guessValue < guessNumber) {
+    } else if (guessValue < guessNumber && score.innerHTML != 0) {
       score.innerHTML--;
-      message.innerHTML = "Too low";
+      message.innerHTML = "Too ";
     }
   } else {
     message.innerHTML = "Correct Number!";
